@@ -10,7 +10,7 @@
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.3.1.min.js#sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js
-// @downloadURL  http://bit.ly/pr-collapse
+// @downloadURL  https://raw.githubusercontent.com/vitaliidasaev/tst/master/tm/gh-pr.js
 // ==/UserScript==
 
 (function() {
