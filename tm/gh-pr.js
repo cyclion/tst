@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub PRs collapse all feature
 // @namespace    http://tampermonkey.net/
-// @version      1.3.0
+// @version      1.3.1
 // @description  try to take over the world!
 // @author       You
 // @include      https://github.com/LykkeCity/*/pull/*
