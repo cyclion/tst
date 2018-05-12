@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         Title add T (test), D (dev), L (localhost)
 // @namespace    http://tampermonkey.net/
-// @version      0.1
 // @description  try to take over the world!
 // @author       You
 // @match        https://*.lykkex.net/*
@@ -28,8 +27,13 @@
     }
 
     if (window.location.host.indexOf('-test') > -1) {
-        //document.title = 'test_' + document.title;
-        favicon.badge('T');
+        if (window.location.host.indexOf('pay-backoffice-test') > -1) {
+            favicon.badge('TPB');
+        } else if (window.location.href.indexOf('https://backoffice-test') > -1) {
+            favicon.badge('TB');
+        } else {
+            favicon.badge('T');
+        }
     } else if (window.location.host.indexOf('-dev') > -1) {
         //document.title = 'dev_' + document.title;
         if (window.location.host.indexOf('pay-backoffice-dev') > -1) {
