@@ -9,6 +9,7 @@
 // @include      https://lykkecity.github.io/LykkePayMarkup*
 // @require      http://lab.ejci.net/favico.js/favico.min.js
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/vitaliidasaev/tst/master/tm/env-icon.js
 // ==/UserScript==
 
 (function() {
